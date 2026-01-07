@@ -9,7 +9,7 @@ import numpy as np
 
 
 # Load data
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("all_data.zip/all_data.csv", compression="zip")
 
 # Function to get top selling products
 def get_top_selling_products(df):
@@ -303,3 +303,4 @@ if selected == "RFM Analysis":
 
 
 st.caption('Copyright (C) Rizka Dwi Arzita 2024')
+
