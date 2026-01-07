@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 from babel.numbers import format_currency
@@ -303,4 +304,5 @@ if selected == "RFM Analysis":
 
 
 st.caption('Copyright (C) Rizka Dwi Arzita 2024')
+
 
